@@ -3,8 +3,8 @@
  */
 
 // NOTE: When delay (in ms between two strokes) is too low, the site might bug out and the result page will not be shown
-var minDelay = 250;
-var maxDelay = 250;
+var minDelay = 180;
+var maxDelay = 180;
 
 /**
  * @see https://stackoverflow.com/questions/8942678/keyboardevent-in-chrome-keycode-is-0/12522752#12522752
