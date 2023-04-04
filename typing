@@ -53,7 +53,7 @@ const keyOverrides = {
 
 function getTargetCharacters() {
   const els = Array.from(document.querySelectorAll('.token span.token_unit'));
-  const chrs = (els+1)
+  const chrs = els
     .map(el => el.textContent[0]) // get individual letters to type
     .map(c => keyOverrides.hasOwnProperty(c) ? keyOverrides[c] : c); // convert special characters
   return chrs;
