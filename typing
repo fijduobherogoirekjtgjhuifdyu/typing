@@ -60,7 +60,7 @@ function getTargetCharacters() {
 }
 
 function recordKey(chr) {
-  window.core.record_keydown_time(28);
+  window.core.record_keydown_time(chr);
 }
 
 function sleep(ms) {
